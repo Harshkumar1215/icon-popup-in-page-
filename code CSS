@@ -1,0 +1,22 @@
+/* whatapp pop up */
+#whatsapp-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#whatsapp-icon {
+    cursor: pointer;
+}
+#whatsapp-icon img {
+    width: 30px;
+    cursor: pointer;
+}
+#close-icon {
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+}
