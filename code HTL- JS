@@ -1,0 +1,18 @@
+ <!-- whatapp popup -->
+         <div id="whatsapp-popup">
+        <div id="close-icon" onclick="closePopup()">X</div>
+        <div id="whatsapp-icon"  onclick="openWhatsApp()"><img src="multimedia/whatsapp-icon.png" alt="whatapp"></div>
+    </div>
+    
+    <script>
+        function openWhatsApp() {
+            //  your WhatsApp chat link
+            window.open('https://wa.me/+91987654321');
+        }
+    
+        function closePopup() {
+            document.getElementById('whatsapp-popup').style.display = 'none';
+        }
+    
+         
+    </script>
